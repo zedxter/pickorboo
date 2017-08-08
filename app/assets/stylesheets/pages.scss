@@ -29,14 +29,24 @@ header {
 footer {
     height: 5rem;
     width: 100%;
-}
 
-.main {
-    padding: 1rem 0;
+    .container {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        .copyright {
+            margin: auto;
+        }
+    }
 }
 
 .container {
     padding: 0 40px;
+}
+
+.main {
+    padding: 1rem 0;
 }
 
 .delimiter {
