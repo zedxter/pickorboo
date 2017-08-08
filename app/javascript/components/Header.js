@@ -3,7 +3,7 @@ import React from 'react';
 import Navigation from './Navigation';
 import logo from '../../assets/images/logo.jpg';
 
-export default class Header extends React.Component {
+export default class Header extends React.PureComponent {
     render() {
         return (
             <header>
